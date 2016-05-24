@@ -1,69 +1,126 @@
-html, body{
-    margin:0;
-    padding:0;
-    width: 100%;
-    font-size:12px;
-    background-color:#fff;
-}
-#banner{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    display: block;
-    max-width: 1600px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0px 20px 0px 0px;
-    background-color:#dfdbdb  ;
-    background-image: none;
-    background-position: 0% 0%;
-    background-size: auto;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    width: 90%;
-    height: 50px;
-}
-.madera_logo{
-    background-color: #afa1c5;
-    width: 20%;
-    height: 100%;
-    display: block;
-    float: left;
-    text-transform: capitalize;
-    border-bottom-right-radius:800px;
-    text-align: center;
-    line-height: 2.5;
-    font-size:18px;
-    color: #fff;
-}
-.weather{
-    float: left;
-    font-size:24px;
-    padding:5px;
-    line-height: 1.5;
-    width: 60%;
-}
-.search{
-    float: left;
-    font-size:20px;
-    margin-top: 10px;
-    padding-right:10px;
-}
-.menu{
-    float: left;
-      font-size:20px;
-    margin-top: 10px;
-}
-#search-icon{
-    display:none;
-}
-.search-bar{
-    display: none;
-}
-#search-icon:checked+.search-bar{
-    display: block;
-}
-.search-bar{
+/*html, body{*/
+/*    margin:0;*/
+/*    padding:0;*/
+/*    width: 100%;*/
+/*    font-size:12px;*/
+/*    background-color:#fff;*/
+/*}*/
+/*#banner{*/
+/*    position: fixed;*/
+/*    left: 0px;*/
+/*    top: 0px;*/
+/*    right: 0px;*/
+/*    display: block;*/
+/*    max-width: 1600px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*    padding: 0px 20px 0px 0px;*/
+/*    background-color:#dfdbdb  ;*/
+/*    background-image: none;*/
+/*    background-position: 0% 0%;*/
+/*    background-size: auto;*/
+/*    background-repeat: repeat;*/
+/*    background-attachment: scroll;*/
+/*    width: 90%;*/
+/*    height: 50px;*/
+/*}*/
+/*.header-img{*/
+/*    background-image: url("./img/almond.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 100%;*/
+/*    background-size: cover;*/
+/*    height: 300px;*/
     
-}
+/*}*/
+/*.madera_logo{*/
+/*    background-color: #afa1c5;*/
+/*    width: 20%;*/
+/*    height: 100%;*/
+/*    display: block;*/
+/*    float: left;*/
+/*    text-transform: capitalize;*/
+/*    border-bottom-right-radius:800px;*/
+/*    text-align: center;*/
+/*    line-height: 2.5;*/
+/*    font-size:18px;*/
+/*    color: #fff;*/
+/*}*/
+/*.weather{*/
+/*    float: left;*/
+/*    font-size:24px;*/
+/*    padding:5px;*/
+/*    line-height: 1.5;*/
+/*    width: 10%;*/
+/*}*/
+/*search bar slide out*/
+
+/*#wrap {*/
+ 
+/*  display: inline-block;*/
+/*  float: left;*/
+/*  padding: 0;*/
+/*  width: 40%;*/
+
+/*}*/
+
+/*input[type="text"] {*/
+/*  height: 40px;*/
+/*  font-size: 16px;*/
+/*  display: inline-block;*/
+/*  border: none;*/
+/*  outline: none;*/
+/*  color: black;*/
+/*  padding: 3px;*/
+/*  padding-right: 40px;*/
+/*  width: 0px;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  background: none;*/
+/*  z-index: 3;*/
+/*  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*input[type="text"]:focus:hover {*/
+/*  border-bottom: 1px solid #BBB;*/
+/*}*/
+
+/*input[type="text"]:focus {*/
+/*  width: 200px;*/
+/*  z-index: 1;*/
+/*  border-bottom: 1px solid #BBB;*/
+/*  cursor: text;*/
+/*}*/
+/*input[type="submit"] {*/
+/*  height: 50px;*/
+/*  width: 50px;*/
+/*  display: inline-block;*/
+/*  float: right;*/
+/*  text-indent: -10000px;*/
+/*  border: none;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  z-index: 2;*/
+/*  cursor: pointer;*/
+/*  opacity: 0.4;*/
+/*  cursor: pointer;*/
+/*  transition: opacity .4s ease;*/
+/*}*/
+
+/*input[type="submit"]:hover {*/
+/*  opacity: 0.8;*/
+/*}*/
+
+/*.fa#search_submit{*/
+/*    font-size: 18px;*/
+/*    margin-top: 15px;*/
+/*}*/
+
+
+/*.menu{*/
+/*    float: right;*/
+/*      font-size:20px;*/
+/*    margin-top: 10px;*/
+/*}*/
