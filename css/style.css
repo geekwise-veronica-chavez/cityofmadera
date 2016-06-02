@@ -26,105 +26,93 @@ html, body{
     margin-right: auto;
     margin-left: auto;
     padding: 0px 20px 0px 0px;
-    background-color:#dfdbdb  ;
+    background-color: #dfdbdb;
     background-image: none;
     background-position: 0% 0%;
     background-size: auto;
     background-repeat: repeat;
     background-attachment: scroll;
-    width: 88.6%;
+    width:88.4%;
     height: 60px;
 }
+.rectangle {
+	width: 225px;
+	height: 30px;
+	background:#b998d0 ;
+    float: left;
+    padding: 30px 0px 0px 55px;
+}
 
-/*.madera_logo{*/
-/*    background-color: #afa1c5;*/
-/*    width: 20%;*/
-/*    height: 100%;*/
-/*    display: block;*/
-/*    float: left;*/
-/*    text-transform: capitalize;*/
-/*    text-align: center;*/
-/*    line-height: 2.5;*/
-/*    font-size:18px;*/
-/*    color: #fff;*/
- 
-/*}*/
-/*.weather{*/
-/*    float: left;*/
-/*    font-size:24px;*/
-/*    padding:5px;*/
-/*    line-height: 1.5;*/
-/*    width: 10%;*/
-/*}*/
+.triangle{
+	width: 0;
+	height: 0;
+	border-bottom: 60px solid #dfdbdb;
+	border-left: 90px solid transparent;
+  float: left;
+  position: absolute;
+  left: 190px;
+}
+.madera_logo{
+    display: block;
+    text-transform: capitalize;
+    font-size:18px;
+    color: #fff;
+} 
+
+/*weather update*/
+.weather{
+    margin-top: 30px;
+    position: relative;
+    right: 45px;
+    font-size: 20px !important; 
+}
+
 /*search bar slide out*/
 
-/*#wrap {*/
+#wrap {
  
-/*  display: inline-block;*/
-/*  float: left;*/
-/*  padding: 0;*/
-/*  width: 40%;*/
+  display: inline-block;
+  float: right;
+  padding: 0;
+  width: 15%;
+}
+form{
+    margin-top: 15px;
+}
+.search_bar{
+    width: 100px;
+    float: left;
+}
+input[type="search"]{
 
-/*}*/
+  width:50px;
+  height: 30px;
+  -moz-transition:all 2s ease;
+  -webkit-transition:all 2s ease;
+  float: right;
+    background: none;
+    border: none;
+    position: relative;
+    right: 10px;
+    top: -15px; 
+    background-image: url("http://i.imgur.com/bt0zVL9.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    
 
-/*input[type="text"] {*/
-/*  height: 40px;*/
-/*  font-size: 16px;*/
-/*  display: inline-block;*/
-/*  border: none;*/
-/*  outline: none;*/
-/*  color: black;*/
-/*  padding: 3px;*/
-/*  padding-right: 40px;*/
-/*  width: 0px;*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  right: 0;*/
-/*  background: none;*/
-/*  z-index: 3;*/
-/*  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);*/
-/*  cursor: pointer;*/
-/*}*/
+input[type="search"]:focus{
 
-/*input[type="text"]:focus:hover {*/
-/*  border-bottom: 1px solid #BBB;*/
-/*}*/
+  width:225px;
+}
 
-/*input[type="text"]:focus {*/
-/*  width: 200px;*/
-/*  z-index: 1;*/
-/*  border-bottom: 1px solid #BBB;*/
-/*  cursor: text;*/
-/*}*/
-/*input[type="submit"] {*/
-/*  height: 50px;*/
-/*  width: 50px;*/
-/*  display: inline-block;*/
-/*  float: right;*/
-/*  text-indent: -10000px;*/
-/*  border: none;*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  right: 0;*/
-/*  z-index: 2;*/
-/*  cursor: pointer;*/
-/*  opacity: 0.4;*/
-/*  cursor: pointer;*/
-/*  transition: opacity .4s ease;*/
-/*}*/
+input[type="search"]:hover{
 
-/*input[type="submit"]:hover {*/
-/*  opacity: 0.8;*/
-/*}*/
-
-/*.fa#search_submit{*/
-/*    font-size: 18px;*/
-/*    margin-top: 15px;*/
-/*}*/
+  width:225px;
+}
 
 
-/*.menu{*/
-/*    float: right;*/
-/*      font-size:20px;*/
-/*    margin-top: 10px;*/
-/*}*/
+.menu{
+    float: right;
+      font-size:20px;
+    margin-top: 10px;
+}
