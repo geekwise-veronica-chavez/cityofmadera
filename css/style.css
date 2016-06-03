@@ -11,7 +11,7 @@ html, body{
     background-image: url("http://i.imgur.com/5oRD9PS.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 90% 100%;
+    background-size: 100% 100%;
     height: 85vh;
     background-position: center;
    
@@ -32,7 +32,7 @@ html, body{
     background-size: auto;
     background-repeat: repeat;
     background-attachment: scroll;
-    width:88.4%;
+    width:100%;
     height: 60px;
 }
 .rectangle {
@@ -55,8 +55,9 @@ html, body{
 .madera_logo{
     display: block;
     text-transform: capitalize;
-    font-size:18px;
+    font-size:1.9rem;
     color: #fff;
+  
 } 
 
 /*weather update*/
@@ -64,7 +65,7 @@ html, body{
     margin-top: 30px;
     position: relative;
     right: 45px;
-    font-size: 20px !important; 
+    font-size: 25px !important; 
 }
 
 /*search bar slide out*/
@@ -74,45 +75,107 @@ html, body{
   display: inline-block;
   float: right;
   padding: 0;
-  width: 15%;
+  width: 30%;
 }
 form{
     margin-top: 15px;
 }
 .search_bar{
-    width: 100px;
+   
     float: left;
 }
 input[type="search"]{
 
-  width:50px;
+  width:40px;
   height: 30px;
-  -moz-transition:all 2s ease;
-  -webkit-transition:all 2s ease;
-  float: right;
+  margin-top: 12px;
     background: none;
     border: none;
-    position: relative;
-    right: 10px;
-    top: -15px; 
-    background-image: url("http://i.imgur.com/bt0zVL9.png");
-    background-size: 20px 20px;
+    background-image: url("http://i.imgur.com/T3uvKEO.png");
+    background-size: 40px 30px;
     background-repeat: no-repeat;
-    
+    background-position: right;
+}
 
 input[type="search"]:focus{
-
-  width:225px;
+  -moz-transition:all 2s ease;
+  -webkit-transition:all 2s ease;
+  width:250px;
+  float:right;
+  border:none;
+  outline:none;
+  border-bottom: grey 2px solid;
 }
 
-input[type="search"]:hover{
-
-  width:225px;
-}
-
-
+/*sticky menu bar*/
 .menu{
-    float: right;
-      font-size:20px;
-    margin-top: 10px;
+    font-size:25px;
+    margin-top: 29px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    text-shadow: 1px grey;
 }
+.navigation_one{
+  background-color: #fff;
+  width: 30%;
+  position: fixed;
+  display: none;
+  height: 350px;
+  margin:0;
+  padding:0;
+}
+#sticky_menu{
+  display: none;
+}
+#sticky_menu:checked~.navigation_one{
+  display: block;
+}
+
+.ul_main_nav{
+  width: 100%;
+  margin:0;
+  padding:0;
+  
+}
+/*li style for main header*/
+.main_nav{
+  width: 100%;
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-align: center;
+  
+}
+/*dropdown menu on home page a href*/
+.main_page_li{
+  
+   color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 30px;
+    width: 100%;
+    border-bottom:solid #b1a59d 1px;
+    text-transform: uppercase;
+}
+.main_page_li:hover{
+  background-color: #b998d0;
+  color: #fff;
+}
+/*div for the large X*/
+#x{
+  background-color: #fff;
+  width: 100%;
+  height: 20px;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  position: relative;
+  top:-50px;
+}
+.equis_nav{
+  font-size: 50px !important;
+  float: right;
+}
+
