@@ -95,6 +95,7 @@ input[type="search"]{
     background-size: 40px 30px;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
 }
 
 input[type="search"]:focus{
@@ -110,9 +111,8 @@ input[type="search"]:focus{
 /*sticky menu bar*/
 .menu{
     font-size:25px;
-    margin-top: 29px;
+    margin-top: 25px;
     letter-spacing: 1px;
-    padding-left: 10px;
     text-shadow: 1px grey;
 }
 .navigation_one{
@@ -120,9 +120,10 @@ input[type="search"]:focus{
   width: 30%;
   position: fixed;
   display: none;
-  height: 350px;
+  height: 380px;
   margin:0;
   padding:0;
+  margin-right: 5px;
 }
 #sticky_menu{
   display: none;
@@ -177,5 +178,78 @@ input[type="search"]:focus{
 .equis_nav{
   font-size: 50px !important;
   float: right;
+}
+/*content middle of image*/
+.mid_content{
+  width: 80%;
+  margin: auto;
+  padding:0;
+  position: relative;
+  top:-300px;
+  text-align: center;
+
+
+  
+}
+.welcome{
+  font-size: 28px;
+  text-transform: capitalize;
+  background-color: #fff;
+  height: 25px;
+  opacity: .5;
+  width: 30%;
+  margin: auto;
+  padding:10px 0 10px 0;
+}
+.mid_text{
+  font-size: 62px;
+  text-transform: uppercase;
+  color: #b998d0;
+  padding:0;
+  margin:0;
+  letter-spacing: 2.5px;
+} 
+/*body content for home page*/
+
+.home_main{
+  width: 100%;
+  height: auto;
+  margin-top:-130px;
+  padding:0;
+}
+/*slider for home page*/
+
+@keyframes slideshow {
+0% { left: 0%; }
+
+
+
+50% { left: -75%; }
+
+
+
+100% { left: -150%; }
+}
+
+section#slider { overflow: hidden; }
+section#slider figure .box_slider { width:250px; height:250px; float: left; }
+section#slider figure { 
+  position: relative;
+  width: 150%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 40s slideshow linear 4; 
+  height: 200px;
+  
+}
+
+
+.purple{
+  background-color:#dfdbdb;
+}
+box_links{
+  
 }
 
