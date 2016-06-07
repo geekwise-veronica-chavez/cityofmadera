@@ -14,6 +14,7 @@ html, body{
     background-size: 100% 100%;
     height: 85vh;
     background-position: center;
+    background-size: cover;
    
 }
 #banner{
@@ -95,7 +96,7 @@ input[type="search"]{
     background-size: 40px 30px;
     background-repeat: no-repeat;
     background-position: right;
-    background-size: cover;
+  
 }
 
 input[type="search"]:focus{
@@ -232,15 +233,15 @@ input[type="search"]:focus{
 }
 
 section#slider { overflow: hidden; }
-section#slider figure .box_slider { width:250px; height:250px; float: left; }
+section#slider figure .box_slider { width:250px; height:250px; float: left; padding:10px; }
 section#slider figure { 
   position: relative;
-  width: 150%;
+  width: 200%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 40s slideshow linear 4; 
+  animation: 40s slideshow linear repeat; 
   height: 200px;
   
 }
@@ -249,7 +250,95 @@ section#slider figure {
 .purple{
   background-color:#dfdbdb;
 }
-box_links{
+
+.border-bottom{
+   border-bottom:solid 1.5px grey;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin:0;
+  padding:0;
+  font-size: 18px;
+  color:#8e6a8e;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+    
+}
+#alert{
+  text-transform: uppercase;
+  width: 20px;
+  padding:5px;
+  margin:auto;
+  
+
+}
+.box_home_info{
+  width:90%;
+  color:grey;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height:1.5;
+  font-family: sans-serif;
   
 }
+/*read more link*/
+.box_links{
+  margin:0;
+  padding:0;
+  font-size: 12px;
+  color:#8e6a8e;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
+  
+}
+.read_more{
+  
+}
+/*madera facts section/ slider 2*/
 
+.madera_fact_section{
+  width: 100%;
+  margin:0;
+  padding:0;
+  
+}
+.line_home{
+  background-color:#b585ce;
+  height: 20px;
+  margin:0;
+  padding:0;
+  
+}
+.line_across{
+  background-color: #dcdfdf;
+  color:#b585ce;
+  font-size: 48px;
+  font-weight:bold;
+  width: 100%;
+  height:50px;
+  margin:0;
+  padding:0;
+  text-align:center;
+  
+}
+.facts{
+  width:20%;
+  height:200px;
+  float:left;
+  font-size: 18px;
+  text-align: center;
+}
+#fact_img{
+  width: 100px;
+  
+ text-align: center;
+}
+.facts_link{
+  text-decoration: none;
+  color:grey;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
