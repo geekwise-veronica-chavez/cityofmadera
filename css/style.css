@@ -35,6 +35,7 @@ html, body{
     background-attachment: scroll;
     width:100%;
     height: 60px;
+    z-index: 10;
 }
 .rectangle {
 	width: 225px;
@@ -321,19 +322,97 @@ section#slider figure {
   margin:0;
   padding:0;
   text-align:center;
+  /*background-image: url("http://i.imgur.com/Z0lSh1k.jpg");*/
+  /*background-size: 100%;*/
+  /*background-image:#b585ce;*/
+  padding-bottom: 10px;
+  padding-top:10px;
   
 }
 .facts{
   width:20%;
   height:200px;
   float:left;
-  font-size: 18px;
   text-align: center;
+  margin:0;
+  padding:0;
+  background-color:  #b585ce;
+  /*background-image: url("http://i.imgur.com/56awgSQ.jpg");*/
+  /*background-size: contain;*/
+  /*background-size: 200px;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+}
+.facts_2{
+   width:20%;
+  height:200px;
+  float:left;
+  text-align: center;
+  margin:0;
+  padding:0;
+  background-color:#dcdfdf ;
+  /*background-image: url("http://i.imgur.com/TGSNzOM.png");*/
+  /*background-size: cover;*/
+  /*background-size: 280px;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+}
+.facts_3{
+    width:20%;
+  height:200px;
+  float:left;
+  text-align: center;
+  margin:0;
+  padding:0;
+   background-color: #b585ce ;
+  /*background-image: url("http://i.imgur.com/HHMxIrV.png");*/
+  /*background-size: contain;*/
+  /*background-size: 200px;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+}
+.facts_4{
+   width:20%;
+  height:200px;
+  float:left;
+  text-align: center;
+  margin:0;
+  padding:0;
+  background-color: #dcdfdf;
+  /*background-image: url("http://i.imgur.com/byk0sEv.png");*/
+  /*background-size: cover;*/
+  /*background-size: 280px;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+}
+.facts_5{
+      width:20%;
+  height:200px;
+  float:left;
+  text-align: center;
+  margin:0;
+  padding:0;
+   background-color: #b585ce;
+  /*background-image: url("http://i.imgur.com/6iTunQL.jpg?1");*/
+  /*background-size: contain;*/
+  /*background-size: 200px;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+
+}
+.content_facts{
+  font-size: 14px;
+  margin:0;
+  padding:0;
 }
 #fact_img{
-  width: 100px;
-  
+  width: 70%;
+  opacity: .7;
  text-align: center;
+ margin:0;
+ padding:0;
+ background-color: grey;
+ 
 }
 .facts_link{
   text-decoration: none;
@@ -341,4 +420,70 @@ section#slider figure {
   font-size: 20px;
   text-transform: capitalize;
   font-weight: bold;
+}
+
+/*event calendar section css*/
+.event_sec{
+  width: 100%;
+  margin:0;
+  float: left;
+ 
+}
+.event_div{
+  width: 100%;
+  color:#b585ce;
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align:center;
+  padding-top:45px;
+  padding-bottom:45px;
+  font-weight: bold;
+  
+  
+}
+.ul_event{
+  width: 60%;
+  margin:auto;
+  background-color:#dcdfdf;
+  padding:10px;
+  background-image: url("http://i.imgur.com/Z0lSh1k.jpg");
+  background-size: 100%;
+}
+.li_event_calendar{
+  width: 100%;
+  margin:0;
+  padding:0;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+  height: 65px;
+  
+
+ 
+}
+.date_event{
+  width: 5%;
+  height: 45px;
+  padding:10px;
+  background-color: #b585ce;
+  color:#fff;
+  text-align: center;
+  font-size: 18px;
+  margin:0;
+  float: left;
+ 
+  
+  
+  
+}
+.event{
+  width: 90%;
+  float: left;
+  color: #000;
+   text-decoration: none;
+  line-height: 3;
+  font-size:18px;
+  padding-left: 5px;
+  text-transform: capitalize;
 }
