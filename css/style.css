@@ -40,7 +40,7 @@ html, body{
 .rectangle {
 	width: 225px;
 	height: 30px;
-	background:#b998d0 ;
+	background:#b585ce;
     float: left;
     padding: 30px 0px 0px 55px;
 }
@@ -234,7 +234,7 @@ input[type="search"]:focus{
 }
 
 section#slider { overflow: hidden; }
-section#slider figure .box_slider { width:250px; height:250px; float: left; padding:10px; }
+section#slider figure .box_slider { width:250px; height:250px; float: left; padding:10px; border-bottom: solid 1px grey; }
 section#slider figure { 
   position: relative;
   width: 200%;
@@ -304,6 +304,7 @@ section#slider figure {
   margin:0;
   padding:0;
   
+  
 }
 .line_home{
   background-color:#b585ce;
@@ -337,6 +338,7 @@ section#slider figure {
   margin:0;
   padding:0;
   background-color:  #b585ce;
+
   /*background-image: url("http://i.imgur.com/56awgSQ.jpg");*/
   /*background-size: contain;*/
   /*background-size: 200px;*/
@@ -379,6 +381,7 @@ section#slider figure {
   margin:0;
   padding:0;
   background-color: #dcdfdf;
+ 
   /*background-image: url("http://i.imgur.com/byk0sEv.png");*/
   /*background-size: cover;*/
   /*background-size: 280px;*/
@@ -400,18 +403,37 @@ section#slider figure {
   /*background-repeat: no-repeat;*/
 
 }
+
+/*2nd set of boxes on home page*/
 .content_facts{
-  font-size: 14px;
+  font-size: 22px;
+  font-family: monospace;
   margin:0;
   padding:0;
+  color:#000;
+  padding-top:35px;
+  text-align: left;
+    padding-left: 10px;
+}
+/*first hr might need a class or id if used again*/
+hr{
+  width:50%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 1px;
+    background-color: grey;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+    
 }
 #fact_img{
-  width: 70%;
-  opacity: .7;
+  width: 75%;
  text-align: center;
  margin:0;
  padding:0;
- background-color: grey;
+ 
  
 }
 .facts_link{
@@ -427,6 +449,7 @@ section#slider figure {
   width: 100%;
   margin:0;
   float: left;
+  padding-bottom: 45px;
  
 }
 .event_div{
@@ -448,6 +471,7 @@ section#slider figure {
   padding:10px;
   background-image: url("http://i.imgur.com/Z0lSh1k.jpg");
   background-size: 100%;
+  background-image: linear-gradient(0deg, #dcdfdf, #dcdfdf 40%, #dcdfdf);
 }
 .li_event_calendar{
   width: 100%;
@@ -466,17 +490,15 @@ section#slider figure {
   width: 5%;
   height: 45px;
   padding:10px;
-  background-color: #b585ce;
+  background-color:#b585ce;
   color:#fff;
   text-align: center;
   font-size: 18px;
   margin:0;
   float: left;
- 
-  
-  
-  
+
 }
+
 .event{
   width: 90%;
   float: left;
@@ -486,4 +508,76 @@ section#slider figure {
   font-size:18px;
   padding-left: 5px;
   text-transform: capitalize;
+}
+/*font awesome angle right*/
+#angle-right{
+  float: right;
+  font-size:20px;
+}
+
+/*footer section css footer nav*/ 
+
+.main_footer{
+  width: 100%;
+  padding:0;
+  margin:0;
+  background-color: #dcdfdf;
+  float: left;
+  
+}
+.home_footer_nav{
+  width:33%;
+  padding:0;
+  margin:0;
+  float: left;
+}
+.home_footer_ul{
+  width:100%;
+  padding:0;
+  margin:0;
+}
+.home_footer_li{
+  width: 50%;
+  margin:auto;
+  padding:0;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+.footer_link{
+  color:#000;
+  text-decoration: none;
+}
+
+.madera_footer_info{
+  width: 33%;
+  float: left;
+  
+}
+.footer_madera_logo{
+  width: 50%;
+  float: left;
+  
+}
+.madera_contact{
+  float: left;
+  width: 45%;
+  
+}
+.social_media_footer{
+  width: 33%;
+  float:left;
+}
+.social_media_ul{
+  width: 100%;
+}
+.li_social_media{
+  width: 25%;
+  margin:auto;
+  float: left;
+  display: inline-block;
+  text-align: center;
 }
