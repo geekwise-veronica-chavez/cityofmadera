@@ -154,7 +154,7 @@ input[type="search"]:focus{
   
    color: #000;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: monospace;
     font-weight: bold;
     font-size: 20px;
     display: inline-block;
@@ -167,15 +167,20 @@ input[type="search"]:focus{
   background-color: #b998d0;
   color: #fff;
 }
+#border_top_res{
+   border-top:solid #b1a59d 1px;
+}
+
 /*div for the large X*/
 #x{
   background-color: #fff;
   width: 100%;
   height: 20px;
-  padding-bottom: 25px;
-  padding-top: 50px;
+  padding-bottom: 35px;
+  padding-top: 40px;
   position: relative;
   top:-50px;
+ 
 }
 .equis_nav{
   font-size: 50px !important;
@@ -314,18 +319,18 @@ section#slider figure {
   
 }
 .line_across{
-  background-color: #dcdfdf;
-  color:#b585ce;
+  /*background-color: #dcdfdf;*/
+  /*color:#b585ce;*/
+  background-color: #beb6c2;
+  color:#fff;
   font-size: 48px;
   font-weight:bold;
+  font-family: monospace;
   width: 100%;
   height:50px;
   margin:0;
   padding:0;
   text-align:center;
-  /*background-image: url("http://i.imgur.com/Z0lSh1k.jpg");*/
-  /*background-size: 100%;*/
-  /*background-image:#b585ce;*/
   padding-bottom: 10px;
   padding-top:10px;
   
@@ -339,68 +344,11 @@ section#slider figure {
   padding:0;
   background-color:  #b585ce;
 
-  /*background-image: url("http://i.imgur.com/56awgSQ.jpg");*/
-  /*background-size: contain;*/
-  /*background-size: 200px;*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
+  
 }
-.facts_2{
-   width:20%;
-  height:200px;
-  float:left;
-  text-align: center;
-  margin:0;
-  padding:0;
-  background-color:#dcdfdf ;
-  /*background-image: url("http://i.imgur.com/TGSNzOM.png");*/
-  /*background-size: cover;*/
-  /*background-size: 280px;*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
-}
-.facts_3{
-    width:20%;
-  height:200px;
-  float:left;
-  text-align: center;
-  margin:0;
-  padding:0;
-   background-color: #b585ce ;
-  /*background-image: url("http://i.imgur.com/HHMxIrV.png");*/
-  /*background-size: contain;*/
-  /*background-size: 200px;*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
-}
-.facts_4{
-   width:20%;
-  height:200px;
-  float:left;
-  text-align: center;
-  margin:0;
-  padding:0;
-  background-color: #dcdfdf;
- 
-  /*background-image: url("http://i.imgur.com/byk0sEv.png");*/
-  /*background-size: cover;*/
-  /*background-size: 280px;*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
-}
-.facts_5{
-      width:20%;
-  height:200px;
-  float:left;
-  text-align: center;
-  margin:0;
-  padding:0;
-   background-color: #b585ce;
-  /*background-image: url("http://i.imgur.com/6iTunQL.jpg?1");*/
-  /*background-size: contain;*/
-  /*background-size: 200px;*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
+.grey{
+   
+   background-color: #dcdfdf;
 
 }
 
@@ -428,14 +376,7 @@ hr{
     margin-left: 10px;
     
 }
-#fact_img{
-  width: 75%;
- text-align: center;
- margin:0;
- padding:0;
- 
- 
-}
+
 .facts_link{
   text-decoration: none;
   color:grey;
@@ -545,27 +486,57 @@ hr{
   font-size: 16px;
   padding-bottom: 10px;
   padding-top: 10px;
-
+  font-family: monospace;
+  
+}
+/*footer nav site section*/
+.site_map{
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 0;
 }
 .footer_link{
   color:#000;
   text-decoration: none;
 }
+.footer_title_contact{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top:0;
+}
 
 .madera_footer_info{
   width: 33%;
   float: left;
+  font-family: monospace;
+  text-transform: capitalize;
+  font-size:14px;
+ 
+  
   
 }
 .footer_madera_logo{
   width: 50%;
   float: left;
-  
+}
+#logo{
+  width: 65%;
+  float: right;
 }
 .madera_contact{
-  float: left;
-  width: 45%;
+   float: left;
+   width: 45%;
+   margin-top: 25px;
+   padding-top: 20px;
+   font-weight: bold;
   
+}
+.madera_tele{
+  color: #000;
+  text-decoration: none;
 }
 .social_media_footer{
   width: 33%;
@@ -575,9 +546,14 @@ hr{
   width: 100%;
 }
 .li_social_media{
-  width: 25%;
+  width: 90%;
   margin:auto;
   float: left;
   display: inline-block;
   text-align: center;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+.fb_img{
+  width: 50%;
 }
