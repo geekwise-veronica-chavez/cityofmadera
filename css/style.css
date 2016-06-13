@@ -392,6 +392,7 @@ hr{
   padding-left: 10px;
   padding-right: 10px;
   font-family: sans-serif;
+  color:grey;
   
 }
 /*event calendar section css*/
@@ -565,4 +566,104 @@ hr{
 }
 .fb_img{
   width: 50%;
+}
+
+/*residents page */
+.residents_main{
+  width: 100%;
+  margin:0;
+  padding:0;
+  /*background image */
+  background-color: coral;
+  float: left;
+}
+.section_scroll{
+  width: 100%;
+  
+}
+.resident_side_menu{
+  width: 45%;
+  text-align: left;
+  float: left;
+  margin-top: 25px;
+}
+.resident_title{
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: monospace;
+  text-align: center;
+
+}
+.resident_line{
+  width: 30%;
+  margin:auto;
+  border-bottom: solid 2px grey;
+  padding-top: 25px;
+}
+.resident_list_ul{
+  width: 100%;
+  
+}
+.resident_li{
+  list-style: none;
+  width: 35%;
+  margin:auto;
+  font-size: 16px;
+  line-height: 2;
+ 
+  font-family: monospace;
+  
+}
+.resident_scroll_list{
+  width: 100%;
+  text-decoration: none;
+   color: #fff;
+  text-transform: capitalize;
+}
+/*scroll box css*/
+.scroll_box_right{
+  width: 45%;
+  height: 300px;
+   overflow-y: scroll;
+   padding-bottom: 25px;
+   padding-top: 25px;
+   
+  
+}
+.scroll_res_box{
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  margin:auto;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  
+}
+.text_half_box{
+  padding-top:100px;
+  
+}
+.box_info{
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: monospace;
+}
+/*a href tag for the li facts box*/
+.resident_facts{
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: grey;
+  font-family: monospace;
+  
+ 
+}
+.box_line{
+  width: 45%;
+  border-bottom: 1px solid purple;
+  
 }
