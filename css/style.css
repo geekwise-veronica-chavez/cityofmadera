@@ -336,7 +336,7 @@ section#slider figure {
   
 }
 .facts{
-  width:20%;
+  width:25%;
   height:200px;
   float:left;
   text-align: center;
@@ -384,7 +384,16 @@ hr{
   text-transform: capitalize;
   font-weight: bold;
 }
-
+/*text content for madera facts (2nd set of boxes)*/
+.text_content_fact{
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  
+}
 /*event calendar section css*/
 .event_sec{
   width: 100%;
