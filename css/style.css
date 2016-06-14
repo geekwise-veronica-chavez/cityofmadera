@@ -574,11 +574,17 @@ hr{
   margin:0;
   padding:0;
   /*background image */
-  background-color: coral;
-  float: left;
+  background-image:url("http://i.imgur.com/D0lXeo3.jpg");
+  /*background-position: 0 0px, 100% 100%;*/
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    min-height: 100vh;
 }
 .section_scroll{
   width: 100%;
+  position: relative;
+  top:130px;
   
 }
 .resident_side_menu{
@@ -589,7 +595,7 @@ hr{
 }
 .resident_title{
   font-size: 32px;
-  color: white;
+  color: #000;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -612,17 +618,20 @@ hr{
   list-style: none;
   width: 35%;
   margin:auto;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
- 
+ font-weight: bold;
   font-family: monospace;
   
 }
 .resident_scroll_list{
   width: 100%;
   text-decoration: none;
-   color: #fff;
+   color: #000;
   text-transform: capitalize;
+}
+.resident_scroll_list:hover{
+  color:#fff;
 }
 /*scroll box css*/
 .scroll_box_right{
@@ -631,7 +640,6 @@ hr{
    overflow-y: scroll;
    padding-bottom: 25px;
    padding-top: 25px;
-   
   
 }
 .scroll_res_box{
@@ -641,7 +649,12 @@ hr{
   margin:auto;
   margin-bottom: 25px;
   padding-left: 15px;
-  
+    position: relative;
+    color: #000;
+    display: block;
+    font-size: 16px;
+
+    
 }
 .text_half_box{
   padding-top:100px;
