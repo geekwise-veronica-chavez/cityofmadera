@@ -577,7 +577,7 @@ hr{
   margin:0;
   padding:0;
   /*background image */
-  background-image:url("http://i.imgur.com/D0lXeo3.jpg");
+  background-image:url("http://i.imgur.com/TE0kXq7.jpg");
   /*background-position: 0 0px, 100% 100%;*/
   background-position: center;
     background-repeat: no-repeat;
@@ -648,12 +648,12 @@ hr{
 .scroll_res_box{
   width: 500px;
   height: 300px;
-  background-color: #fff;
+  background-color: #8d629b;
   margin:auto;
   margin-bottom: 25px;
   padding-left: 15px;
     position: relative;
-    color: #000;
+    color: #fff;
     display: block;
     font-size: 16px;
 
@@ -673,14 +673,14 @@ hr{
   font-size: 32px;
   text-transform: uppercase;
   text-decoration: none;
-  color: grey;
+  color: #fff;
   font-family: monospace;
   
  
 }
 .box_line{
   width: 45%;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid #fff;
   
 }
 /*content page css eg city facts sub pages*/
