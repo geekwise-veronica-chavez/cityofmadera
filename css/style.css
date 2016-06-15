@@ -5,6 +5,9 @@ html, body{
     font-size:12px;
     background-color:#fff;
 }
+header{
+  height: 60px;
+}
 .header-img{
     margin:0;
     padding:0;
@@ -679,4 +682,102 @@ hr{
   width: 45%;
   border-bottom: 1px solid purple;
   
+}
+/*content page css eg city facts sub pages*/
+
+.city_main{
+  width:100%;
+  height: 600px;
+  background-color:#f3f3f3;
+  
+}
+.top_page_title{
+  width: 80%;
+  margin:auto;
+  padding:25px;
+  
+  
+}
+.title_city_facts{
+  width: 100%;
+  font-size:52px;
+  color:#bd8fd7;
+  margin:auto;
+  padding:0;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+}
+.line_sub_page{
+  border-bottom: 2px solid #bd8fd7;
+  width: 400px;
+  margin:0;
+  
+}
+.sub_nav{
+  width:100%;
+  font-size: 18px;
+  margin:auto;
+  padding:0;
+  padding-top: 10px;
+}
+.inline_sub_page{
+  text-decoration: none;
+ font-family: monospace;
+  text-transform: uppercase;
+  color:#000;
+}
+.city_facts_main_section{
+  width:75%;
+  margin:auto;
+  background-color:#fff;
+  padding:35px;
+  
+  
+}
+.content_info{
+  width: 100%;
+  margin:0;
+  padding:0;
+  font-size: 18px;
+    font-family: serif;
+    color: #8d8383;
+    line-height: 1.5;
+   
+  
+}
+.large_letter{
+  font-size: 36px;
+  color:purple;
+}
+/*content link boxes with outside or inside links */
+
+.content_link_boxes{
+  width: 60%;
+  margin:auto;
+  padding:0;
+  margin-top:20px;
+}
+.outside_links{
+  width: 40%;
+  float: left;
+  height: 75px;
+  padding:15px;
+    background-color: #fff;
+    margin-left: 10px;
+    line-height: 3;
+    text-align: center;
+  
+  
+}
+.outside_links:hover{
+  background-color: gray;
+}
+.grey_link{
+  color:#8d8383;
+  text-decoration: none;
+  font-size: 24px;
+}
+.grey_link:hover{
+  color:#fff;
 }
