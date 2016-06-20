@@ -781,3 +781,60 @@ hr{
 .grey_link:hover{
   color:#fff;
 }
+/*council members main layout pages*/
+.council_main{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.council_member_title{
+  width: 100%;
+  height: 400px;
+}
+.member_madera{
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+#mayor_img{
+  width:100%;
+  height: 100%;
+}
+.position{
+  width:50%;
+  float: right;
+      font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    line-height: 2;
+  
+}
+.council_info{
+  width: 100%;
+  margin:auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.description{
+  width: 45%;
+  float:left;
+  font-size: 16px;
+}
+.other_info{
+  width: 50%;
+  float:right;
+  padding-left: 10px;
+}
+.mayor_li{
+  list-style: none;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding-left: 10px;
+  line-height: 1.5;
+ 
+}
+.title_mayor{
+  text-decoration: underline;
+}
